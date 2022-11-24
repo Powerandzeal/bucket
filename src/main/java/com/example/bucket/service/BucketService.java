@@ -16,7 +16,7 @@ public class BucketService {
     }
 
     public void addToBucket(List<Integer> id) {
-        this.bucketRepository.addToBucket(id);
+         this.bucketRepository.addToBucket(id);
     }
 
     public List<Integer> getProductInBucket() {
