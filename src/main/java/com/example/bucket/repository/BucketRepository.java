@@ -12,7 +12,7 @@ public class BucketRepository {
     private final List<Integer> idList = new ArrayList<>();
 
     public void addToBucket(List<Integer> ids) {
-         idList.addAll(ids);
+        idList.addAll(ids);
     }
 
     public List<Integer> getBucketContent() {
